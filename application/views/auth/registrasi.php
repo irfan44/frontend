@@ -14,7 +14,7 @@
   <div class="container">
     <div class="row vh-100">
       <div class="col text-center my-auto">
-        <img src="<?= base_url(); ?>assets/img/Registrasi.svg" class="img py-5" alt="#" width="320px">
+        <img src="/assets/img/Registrasi.svg" class="img py-5" alt="#" width="320px">
       </div>
       <div class="col my-auto">
         <form class="p-5 my-4"  style="background-color: #ffffff; border-radius: 18px;" action="http://localhost/bcit/user" method="post">
@@ -39,7 +39,7 @@
             <button type="submit" class="btn p-2 fw-bold" style="background-color: #004680; color: #ffffff">Masuk</button>
           </div>
           <div class="mt-4 text-center">
-            <p>Sudah punya akun? <a style="text-decoration: none; color: #2A4F96" class="fw-bold" href="<?= base_url();?>index.php/auth/">Masuk disini</a></p>
+            <p>Sudah punya akun? <a style="text-decoration: none; color: #2A4F96" class="fw-bold" href="/auth/index">Masuk disini</a></p>
           </div>
         </form>
 

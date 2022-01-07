@@ -14,7 +14,7 @@
   <div class="container">
     <div class="row vh-100">
       <div class="col text-center my-auto">
-        <img src="<?= base_url(); ?>assets/img/Login.svg" class="img py-5" alt="#" width="280px">
+        <img src="/assets/img/Login.svg" class="img py-5" alt="#" width="280px">
       </div>
       <div class="col my-auto">
         <form class="p-5 my-4"  style="background-color: #ffffff; border-radius: 18px;">
@@ -34,7 +34,7 @@
             <button type="submit" class="btn p-2 fw-bold" style="background-color: #2A4F96; color: #ffffff">Masuk</button>
           </div>
           <div class="mt-4 text-center">
-            <p>Belum punya akun? <a style="text-decoration: none; color: #004680" class="fw-bold" href="<?= base_url();?>index.php/auth/registrasi">Buat akun disini</a></p>
+            <p>Belum punya akun? <a style="text-decoration: none; color: #004680" class="fw-bold" href="/auth/registrasi">Buat akun disini</a></p>
           </div>
         </form>
 

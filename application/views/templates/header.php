@@ -13,15 +13,14 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container py-2">
-            <a class="navbar-brand" href="#"><h2 style="font-weight: 700; color: #004680;">ABCDEF</h2></a>
+            <a class="navbar-brand" href="/main"><h2 style="font-weight: 700; color: #004680;">ABCDEF</h2></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="/main">Home</a>
                     <a class="nav-link" href="#">Features</a>
-                    <a class="nav-link" href="#">Pricing</a>
                     <button type="submit" class="btn p-2 mx-auto" style="background-color: #004680; color: #ffffff;">Masuk/Daftar</button>
                 </div>
             </div>

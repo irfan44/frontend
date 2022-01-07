@@ -1,5 +1,22 @@
 <?php
 /**
+Fokus utama di folder view
+1. auth 
+  login
+  registrasi
+2. landing page
+3. main
+  index
+  pencarian
+  deskripsi proyek
+  profil
+
+TODO
+1. Halaman profil
+2. Navbar blm dirapihin
+3. Bedain control view sebelum login & sesudah
+
+
  * CodeIgniter
  *
  * An open source application development framework for PHP

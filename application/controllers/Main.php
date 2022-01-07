@@ -42,6 +42,16 @@ class Main extends CI_Controller {
 		$this->load->view('templates/footer.php');
 	}
 
+  public function profil(){
+    $data = [
+            'title' => 'Profile',
+            // 'users' => $this->db->get('mahasiswa')->result_array()
+        ];
+		$this->load->view('templates/header.php', $data);
+		$this->load->view('main/profil');
+		$this->load->view('templates/footer.php');
+  }
+
 	// public function menambah(){
 	// 	$data = [
     //         'title' => 'Tambah data',
